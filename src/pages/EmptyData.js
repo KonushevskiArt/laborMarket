@@ -1,11 +1,9 @@
 import React from 'react';
 
-const EmptyData = () => {
+export const EmptyData = () => {
   return (
     <div>
       EmptyData
     </div>
   );
 };
-
-export default EmptyData;

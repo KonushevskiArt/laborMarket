@@ -1,6 +1,8 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
-const Vacancy = () => {
+export const Vacancy = () => {
+  console.log(useParams())
   return (
     <div>
       Vacancy
@@ -8,4 +10,3 @@ const Vacancy = () => {
   );
 };
 
-export default Vacancy;
